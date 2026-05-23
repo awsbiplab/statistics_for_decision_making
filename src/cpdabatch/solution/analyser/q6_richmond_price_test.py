@@ -8,7 +8,7 @@ H0 : mu = $1,000,000  (firm's claim is correct)
 H1 : mu != $1,000,000  (two-tailed — actual mean differs)
 alpha = 0.05
 
-Required outputs (per assignment):
+Required outputs (per solution):
   - Null and alternative hypotheses
   - Test statistic
   - p-value

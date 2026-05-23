@@ -1,7 +1,7 @@
 """
 Chart Engine
 ============
-All matplotlib / seaborn chart functions for the Statistics assignment.
+All matplotlib / seaborn chart functions for the Statistics solution.
 Each function saves a PNG to reports/figures/ and returns the filepath.
 """
 

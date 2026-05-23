@@ -11,26 +11,26 @@ Usage:
 """
 
 # ─── DATA PIPELINE ───────────────────────────────────────────────────────────
-from src.cpda.assignment.dataprocessor.dataset_loader  import load_data
-from src.cpda.assignment.dataprocessor.data_sanitizer  import clean_data
-from src.cpda.assignment.dataprocessor.feature_builder import create_features
+from src.cpdabatch.solution.dataprocessor.dataset_loader  import load_data
+from src.cpdabatch.solution.dataprocessor.data_sanitizer  import clean_data
+from src.cpdabatch.solution.dataprocessor.feature_builder import create_features
 
 # ─── ANALYSIS MODULES ────────────────────────────────────────────────────────
-from src.cpda.assignment.analyser.q1_altona_price_test        import altona_price_test
-from src.cpda.assignment.analyser.q2_seasonal_price_test      import seasonal_price_test
-from src.cpda.assignment.analyser.q3_binomial_car_parking     import binomial_car_parking
-from src.cpda.assignment.analyser.q4_q5_abbotsford_probability import (
+from src.cpdabatch.solution.analyser.q1_altona_price_test        import altona_price_test
+from src.cpdabatch.solution.analyser.q2_seasonal_price_test      import seasonal_price_test
+from src.cpdabatch.solution.analyser.q3_binomial_car_parking     import binomial_car_parking
+from src.cpdabatch.solution.analyser.q4_q5_abbotsford_probability import (
     abbotsford_room_probability,
     abbotsford_bathroom_probability,
 )
-from src.cpda.assignment.analyser.q6_richmond_price_test      import richmond_price_test
-from src.cpda.assignment.analyser.q7_car_parking_price_test   import car_parking_price_test
-from src.cpda.assignment.analyser.q8_two_way_anova            import two_way_anova
-from src.cpda.assignment.analyser.q9_pvalue_interpretation    import pvalue_interpretation
-from src.cpda.assignment.analyser.q10_bathroom_premium_test   import bathroom_premium_test
+from src.cpdabatch.solution.analyser.q6_richmond_price_test      import richmond_price_test
+from src.cpdabatch.solution.analyser.q7_car_parking_price_test   import car_parking_price_test
+from src.cpdabatch.solution.analyser.q8_two_way_anova            import two_way_anova
+from src.cpdabatch.solution.analyser.q9_pvalue_interpretation    import pvalue_interpretation
+from src.cpdabatch.solution.analyser.q10_bathroom_premium_test   import bathroom_premium_test
 
 # ─── CHART ENGINE ────────────────────────────────────────────────────────────
-from src.cpda.assignment.visualizer.chart_engine import (
+from src.cpdabatch.solution.visualizer.chart_engine import (
     plot_altona_price_distribution,
     plot_seasonal_prices,
     plot_binomial_distribution,
@@ -42,7 +42,7 @@ from src.cpda.assignment.visualizer.chart_engine import (
 )
 
 # ─── REPORT GENERATOR ────────────────────────────────────────────────────────
-from src.cpda.assignment.reporting.insight_reporter import print_full_report
+from src.cpdabatch.solution.reporting.insight_reporter import print_full_report
 
 
 # ─── PIPELINE ────────────────────────────────────────────────────────────────

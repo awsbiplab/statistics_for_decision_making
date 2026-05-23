@@ -3,7 +3,7 @@ Insight Reporter
 ================
 Prints a structured findings summary to stdout after all 10 questions
 have been analysed. Designed to mirror the format expected in the
-graded assignment submission.
+graded solution submission.
 """
 
 from typing import Dict, Any
