@@ -16,7 +16,7 @@ def print_full_report(results: Dict[str, Any]) -> None:
     print(f"\n{sep}")
     print(f"  STATISTICS FOR DECISION MAKING — FULL RESULTS SUMMARY")
     print(f"  Dataset: Australian Property Market (property.csv)")
-    print(f"  Author : Mani Dixit  |  Batch: CPDA")
+    print(f"  Author : Biplab Mitra |  Batch: CPDA")
     print(f"{sep}")
 
     _q1(results.get("q1", {}))
